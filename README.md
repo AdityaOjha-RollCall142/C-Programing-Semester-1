@@ -1,2 +1,1 @@
-This is a C programme for addition of two numbers:
-The program asks the user to enter two numbers and then returns the sum of both numbers.
+This repositroy contains different C programs related to the subject's assignments.
