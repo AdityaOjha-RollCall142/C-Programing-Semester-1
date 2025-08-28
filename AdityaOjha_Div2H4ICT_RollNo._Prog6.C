@@ -3,10 +3,11 @@
 
 void main()
 {
-	int hours,minutes;
+	float hours,minutes;
 	printf("Enter hours: ");
-	scanf("%d",&hours);
+	scanf("%2f",&hours);
 	minutes=hours*60;
-	printf("Given hours in minutes is: %d",minutes);
+	printf("Given hours in minutes is: %2f",minutes);
 	getch();
 }
+
