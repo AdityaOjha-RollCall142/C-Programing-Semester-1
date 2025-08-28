@@ -3,10 +3,11 @@
 
 void main()
 {
-	int dollars,rupees;
+	float dollars,rupees;
 	printf("Enter dollars: ");
-	scanf("%d",&dollars);
+	scanf("%2f",&dollars);
 	rupees=dollars*48;
-	printf("Given dollars in rupees are: %d",rupees);
+	printf("Given dollars in rupees are: %2f",rupees);
 	getch();
 }
+
