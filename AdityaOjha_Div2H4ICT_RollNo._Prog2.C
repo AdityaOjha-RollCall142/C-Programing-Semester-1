@@ -3,12 +3,13 @@
 
 void main()
 {
-	int a,b,c;
+	float a,b,c;
 	printf("Enter first number: ");
-	scanf("%d",&a);
+	scanf("%2f",&a);
 	printf("Enter second number: ");
-	scanf("%d",&b);
+	scanf("%2f",&b);
 	c=a-b;
-	printf("The difference of two numbers is: %d",c);
+	printf("The difference of two numbers is: %2f",c);
 	getch();
 }
+
