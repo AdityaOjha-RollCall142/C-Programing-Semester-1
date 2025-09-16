@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 void main()
 {
 	int ns,gs,all,ded;
@@ -8,4 +9,6 @@ void main()
 	ded=0.03*gs;
 	ns=gs+all-ded;
 	printf("Net salary is: %d",ns);
+    getch();
 }
+
